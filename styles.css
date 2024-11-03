@@ -589,3 +589,28 @@ footer .footer-contact p {
   color: #666;
   margin-bottom: 20px;
 }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: gray;
+  padding: 20px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  width: 400px; /* Adjust width as needed */
+  z-index: 10;
+}
+
+/* Display dropdown on hover */
+nav ul li:hover .dropdown-content {
+  display: block;
+}
+
+/* Additional styling for dropdown content */
+.features-grid, .steps {
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.feature-item, .step {
+  margin-bottom: 10px;
+}
